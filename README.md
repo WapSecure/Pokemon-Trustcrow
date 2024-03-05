@@ -1,38 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # Pokemon-Trustcrow
+
 Pokemon Exercise for Trustcrow
+
+Development Documentation:
+
+Node.js: Ensure that you have Node.js installed on your machine. You can download it from https://www.nodejs.org.
+
+Getting Started:
+
+1. Clone the repository:
+   git clone <repository-url>
+   cd <repository-directory>
+
+2. Install dependencies:
+   npm install
+
+3. Running the Development Server:
+   npm run dev
+
+This will start the development server at http://localhost:3000. You can access your Next.js application and make changes. The server will automatically reload when changes are made.
+
+TypeScript and Tailwind CSS:
+TypeScript is used for static typing, and Tailwind CSS is used for styling. Ensure that your IDE or code editor has TypeScript and Tailwind CSS support.
+
+4. Testing:
+   npm test
+
+Run your tests to ensure that the application behaves as expected.
+
+5. Linting:
+   npm run lint
+
+Run the linter to maintain code quality and consistency.
+
+Deployment Documentation:
+
+1. Building the Production Version:
+   npm run build
+
+This command will create an optimized production build in the ./out directory.
+
+2. Running the Production Server:
+   npm start
+
+Starts the application in production mode.
+
+Deployment:
+Deploy the application to your preferred hosting service. Ensure that the environment variables, such as API URLs, are configured correctly for the production environment.
+
+Additional Notes:
+Make sure to update the API URLs in the code and environment variables according to your production API endpoints.
+Document any additional steps required for deployment, such as setting up environment variables.
